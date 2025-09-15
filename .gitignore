@@ -1,0 +1,32 @@
+# Binaries for the current platform
+*.exe
+*.dll
+*.so
+*.dylib
+*.wasm
+
+# Go build artifacts
+# These are typically found in the root of the project or a 'bin' directory
+*/bin/
+*/pkg/
+
+# Test cache
+.test_cache/
+
+# Go module cache
+# The Go module cache is usually managed by Go itself and doesn't need to be committed.
+# It's typically located in GOPATH/pkg/mod
+# If you have a local vendor directory, you might want to ignore that too.
+vendor/
+
+# IDE-specific files and directories (examples)
+.idea/ # IntelliJ IDEA / GoLand
+.vscode/ # VS Code
+*.sublime-workspace # Sublime Text
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Log files, temporary files, and other generated content
+*.log
+*.tmp
+*.bak
